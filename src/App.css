@@ -1,0 +1,100 @@
+/*.rbc-time-slot { min-height: 8px; }
+*/
+.App {
+  text-align: center;
+  max-width:100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+h2,h5{
+	color:#009688;
+}
+h3{
+	color:#ff5722;
+}
+
+.btnFacebook { 
+  width: 250px;
+  height:35px;  
+  border-radius: 4px;
+  background: #3b5998;
+  color:white;
+  border:0px transparent;  
+  text-align: center;
+  margin:5px;
+  display: inline-block;
+}
+.btnGoogle { 
+  margin:5px;
+  width: 250px;
+  height:35px;
+  border-radius: 4px;
+  background: #db3236;
+  color:white;
+  border:0px transparent;
+  text-align: center;
+}
+.btnFacebook:hover {
+  background: #3b5998;
+  opacity: 0.6;
+}
+.btnGoogle:hover {
+  background: #db3236;
+  opacity: 0.6;
+}
+
+
+.rbc-time-header > .rbc-row:nth-of-type(2) {
+    display: none !important;
+}
+
+.rbc-day-slot .rbc-event{
+	border:none;
+}
+
+.rbc-timeslot-group {
+    min-height: 70px;
+}
+
+.row {
+	margin:0;
+	padding:0;
+}
+
+.col {
+	margin:0;
+	padding:0;
+}
+
+.form-control{
+	border-radius:0;
+}
+
+.dropdown-align-right{
+	text-align:right;
+	padding-bottom:10px;
+}
