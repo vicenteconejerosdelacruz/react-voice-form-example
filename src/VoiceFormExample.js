@@ -47,9 +47,9 @@ class VoiceFormExample extends Component {
 	render() {
 		const customStyles = {
 			content : {
-				top			: '10%',
-				left		: '30%',
-				right		: '30%',
+				top	: '10%',
+				left	: '30%',
+				right	: '30%',
 				bottom	: 'auto',
 			},
 			overlay: {
