@@ -11,11 +11,11 @@ class App extends Component {
 		this.recognition = new SpeechRecognitionService();
 		this.state = {
 			recording:false,
-            speechResult: null,
-            serviceList: [
-                { name: 'primera visita' },
-                { name: 'consulta' },
-            ]
+			speechResult: null,
+			serviceList: [
+				{ name: 'primera visita' },
+				{ name: 'consulta' },
+			]
 		}
 	}
 	
@@ -47,10 +47,10 @@ class App extends Component {
 			<div className="App container">
 				<VoiceFormExample 
 					//audio stuff
-                    onToggleRecording={this.toggleRecording}
-                    recording={this.state.recording}
-                    result={this.state.speechResult}
-                    serviceList={this.state.serviceList}
+					onToggleRecording={this.toggleRecording}
+					recording={this.state.recording}
+					result={this.state.speechResult}
+					serviceList={this.state.serviceList}
 				/>
 			</div>
 		)
