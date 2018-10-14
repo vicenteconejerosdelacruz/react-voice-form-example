@@ -7,9 +7,9 @@ class VoiceToTextInput extends Component {
 		this.myRef = null
 	}
 	
-    setRef = ref => {
-      this.myRef = ref
-    };	
+	setRef = ref => {
+		this.myRef = ref
+	};	
 	
 	componentDidUpdate(prevProps) {
 		//to be sure to process just once
